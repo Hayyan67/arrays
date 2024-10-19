@@ -1,0 +1,12 @@
+import array as arr
+a=arr.array('i',[5,6,78,98,23,65,43])
+print('Array: ',a)
+a.insert(3,37)
+print('updated array: ',a)
+a.append(98)
+print('updated array: ',a)
+a.remove(78)
+print('updated array: ',a)
+a.pop()
+print('updated array: ',a)
+print('index of 23: ',a.index(23))
